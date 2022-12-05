@@ -1,3 +1,5 @@
+/* General */
+
 * {
     box-sizing: border-box;
 }
@@ -41,6 +43,25 @@ a:hover {
     color: white;
 }
 
+.left-section {
+    width: 12%;
+}
+
+.right-section {
+    width: 88%;
+    padding-left: 2rem;
+    border-left: 2px solid black;
+}
+
+.title-section {
+    font-size: 2rem;
+    color: rgb(67, 92, 129);
+    text-align: right;
+    padding-right: 1rem;
+}
+
+/* Header and navigation */
+
 .header {
     display:flex;
     justify-content: space-between;
@@ -66,6 +87,8 @@ a:hover {
     text-underline-offset: 4px;
 }
 
+/* Hero-banner */
+
 .hero-banner {
     background-image: url(../images/02-hero-bg.jpg);
     background-image: no-repeat;
@@ -89,5 +112,22 @@ a:hover {
     background-color: rgb(53, 165, 159);
     margin-bottom: 15px;
     margin-right: 65px;
+}
+
+/* About me */
+
+.page-section {
+    padding-top: 5rem;
+    padding-left: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.about-paragraph {
+    color: rgb(67, 92, 129);
+    width: 88%;
+    padding-left: 2rem;
 }
 
