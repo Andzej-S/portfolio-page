@@ -60,6 +60,10 @@ a:hover {
     padding-right: 1rem;
 }
 
+h2 {
+    padding: 2px;
+}
+
 /* Header and navigation */
 
 .header {
@@ -129,6 +133,7 @@ a:hover {
     color: rgb(67, 92, 129);
     width: 88%;
     padding-left: 2rem;
+    padding-right: 5%;
 }
 
 /* Work */
@@ -137,9 +142,10 @@ a:hover {
     display: grid;
     justify-content: start;
     align-items: center;
-    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-rows: 125px 125px 125px 125px;
     grid-template-columns: 1fr 1fr;
     gap: 1.25rem;
+    padding-right: 15%;
 }
 
 .work-item {
@@ -174,6 +180,8 @@ a:hover {
     position: absolute;
     height: 100%;
     width: 100%;
+    border: solid rgb(53, 165, 159);
+    border-width: 5px;
 }
 
 .work-link:hover {
@@ -207,6 +215,11 @@ a:hover {
 
 footer {
     margin-bottom: 2rem;
+}
+
+.contact-wrapper {
+    padding-right: 15%;
+    height: 5.5rem;
 }
 
 .contact-items {
