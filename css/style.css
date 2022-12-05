@@ -45,12 +45,12 @@ a:hover {
 
 .left-section {
     width: 12%;
-}
+    }
 
 .right-section {
     width: 88%;
     padding-left: 2rem;
-    border-left: 2px solid black;
+    border-left: 2px solid rgb(67, 92, 129);
 }
 
 .title-section {
