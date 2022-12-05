@@ -118,6 +118,15 @@ h2 {
     margin-right: 65px;
 }
 
+#avatar {
+    position: absolute;
+    top: 11%;
+    left: 3%;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
+
 /* About me */
 
 .page-section {
@@ -235,3 +244,4 @@ footer {
     text-decoration-thickness: 2.5px;
     text-underline-offset: 4px;
 }
+
