@@ -16,7 +16,7 @@ Users can also click links in the work section, which will take them to relevant
 
 ## Screenshot
 
-![Screenshot of Andzej-S portfolio](/assets/screenshot-of-andzej-s-portfolio-page.png)
+![Screenshot of Andzej-S portfolio](/images/screenshot.png)
 
 ## Link
 
